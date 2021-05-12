@@ -16,8 +16,6 @@ class Hamster{
   }
 }
 
-const gus = new Hamster("Gus");
-
 class Person {
   constructor(name){
     this.name = name;
@@ -62,5 +60,62 @@ class Person {
   }
 }
 
-const luke = new Person("Luke");
-luke.buyHamster(gus);
+const timmy = new Person("Timmy");
+
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+
+timmy.eat();
+timmy.eat();
+timmy.eat();
+timmy.eat();
+timmy.eat();
+
+timmy.exercise();
+timmy.exercise();
+timmy.exercise();
+timmy.exercise();
+timmy.exercise();
+
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+
+const gus = new Hamster("Gus");
+
+gus.owner = "Timmy";
+
+timmy.buyHamster(gus);
+
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+
+timmy.eat();
+timmy.eat();
+
+timmy.exercise();
+timmy.exercise();
+
+console.log(timmy);
