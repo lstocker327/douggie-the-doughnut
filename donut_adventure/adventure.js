@@ -22,7 +22,6 @@ class Hero{
 }
 
 const dougieTheDonut = new Hero("Dougie")
-dougieTheDonut.talkSass();
 
 class Enemy{
   constructor(name){
@@ -50,4 +49,10 @@ class Enemy{
 }
 
 const pizzaRat = new Enemy("Pizza Rat");
+
+
+
+dougieTheDonut.talkSass();
 pizzaRat.talkSmack();
+dougieTheDonut.announceHealth();
+pizzaRat.announceHealth();
